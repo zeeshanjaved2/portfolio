@@ -2878,7 +2878,8 @@ body[data-layout-mode=dark] .contact .custom-form .form-control {
 }
 
 body[data-layout-mode=dark] .contact .custom-form .form-group .form-control {
-    background-color: #303841 !important
+    background-color: #303841 !important;
+    color: white;
 }
 
 .footer {
@@ -2979,94 +2980,3 @@ body[data-layout-mode=dark] .bottom-footer {
 }
 
 /*# sourceMappingURL=style.min.css.map */
-
-/* whatsapp button style */
-/* WhatsApp Button Container */
-.whatsapp-container {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 9999;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    animation: slideIn 1s ease-out forwards;
-}
-
-/* WhatsApp Button Styling */
-.whatsapp-button {
-    background-color: #25D366;
-    color: white;
-    padding: 15px 30px;
-    border-radius: 50px;
-    display: block;
-    text-align: center;
-    font-size: 18px;
-    font-weight: bold;
-    margin-top: 10px;
-    text-decoration: none;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    display: flex;
-    align-items: center;
-    width: auto;
-    /* Adjust width to fit the content */
-}
-
-/* WhatsApp Icon Styling */
-.whatsapp-button i {
-    margin-right: 10px;
-    font-size: 24px;
-}
-
-/* Slide-In Animation */
-@keyframes slideIn {
-    0% {
-        transform: translateY(100px);
-    }
-
-    100% {
-        transform: translateY(0);
-    }
-}
-
-/* Hover effect for the WhatsApp button */
-.whatsapp-button:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
-}
-
-/* Media Query for Mobile Responsiveness */
-@media (max-width: 767px) {
-
-    /* For mobile screens, adjust button size and position */
-    .whatsapp-button {
-        padding: 10px 20px;
-        font-size: 16px;
-        border-radius: 50px;
-        width: 50px;
-        height: 50px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 0;
-    }
-
-    /* Adjust icon size for mobile */
-    .whatsapp-button i {
-        font-size: 20px;
-        margin-right: 0px;
-    }
-
-    .whatsapp-button span {
-        display: none;
-    }
-}
-
-/* For larger screens, adjust size slightly */
-@media (min-width: 768px) and (max-width: 1024px) {
-    .whatsapp-button {
-        padding: 12px 25px;
-        font-size: 17px;
-    }
-}

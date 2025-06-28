@@ -367,11 +367,5 @@ function fadeIn() {
   }, 200);
 }
 
-// Whatsapp Icon js
-window.onload = function () {
-  const button = document.getElementById('whatsapp-button');
-  button.onclick = function () {
-    window.location.href = 'https://wa.me/923265989499';
-  }
-}
+
 
