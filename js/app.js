@@ -369,3 +369,26 @@ function fadeIn() {
 
 
 
+
+// Cursor Effect
+// document.addEventListener('mousemove', function (e) {
+//   const cursor = document.querySelector('.cursor');
+//   const cursorDot = document.querySelector('.cursor-dot');
+
+//   // Update cursor position
+//   cursor.style.left = `${e.pageX}px`;
+//   cursor.style.top = `${e.pageY}px`;
+
+//   // Update dot position
+//   cursorDot.style.left = `${e.pageX}px`;
+//   cursorDot.style.top = `${e.pageY}px`;
+// });
+
+// // Create cursor and cursor-dot elements dynamically
+// const cursor = document.createElement('div');
+// cursor.classList.add('cursor');
+// document.body.appendChild(cursor);
+
+// const cursorDot = document.createElement('div');
+// cursorDot.classList.add('cursor-dot');
+// document.body.appendChild(cursorDot);
