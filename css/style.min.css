@@ -2979,6 +2979,12 @@ body[data-layout-mode=dark] .bottom-footer {
     background-color: #343f4b !important
 }
 
+.margin{
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+
+}
+
 /*# sourceMappingURL=style.min.css.map */
 
 /* Cursor Style */
